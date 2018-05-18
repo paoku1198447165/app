@@ -1,0 +1,215 @@
+.tou{
+    width: 100%;
+    height: 3.7rem;
+    background:#5350d9 ;
+    overflow: hidden;
+}
+.tou .box{
+    width:100%;
+    height:0.4rem;
+    /*background: #df5000;*/
+    margin-top: 0.2rem;
+    overflow: hidden;
+    color: white;
+    float: left;
+    position: relative;
+}
+.tou .box:nth-child(1) i{
+    font-size:0.3rem ;
+    color: white;
+    float: left;
+    margin:0.04rem 0 0 0.1rem;
+}
+.tou .box:nth-child(2){
+    overflow: hidden;
+    font-size: 0.24rem;
+    line-height:0.4rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.tou .box:nth-child(3){
+    font-size: 0.24rem;
+    line-height:0.4rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.tou .box:nth-child(3) i{
+    color: white;
+    float: right;
+    margin:0 0.9rem 0 0;
+}
+.tou .box:nth-child(4){
+    font-size: 0.24rem;
+    line-height:0.4rem;
+    margin-left: 0.1rem;
+}
+.tou .time{
+    width:6.5rem ;
+    height: 1.5rem;
+    background: #fff45c;
+    position: absolute;
+    margin-left:0.5rem ;
+    margin-top:2.95rem;
+    border: 0.02rem solid #959595;
+    border-radius:0.3rem;
+    /*display: flex;*/
+}
+.tou .time span{
+    font-size:0.24rem;
+    /*text-align:center;*/
+    line-height:1.5rem ;
+    display: block;
+    margin-left:0.32rem ;
+    margin-top:-0.4rem;
+}
+.tou .time i{
+    font-size:0.3rem;
+    color:red;
+    text-align: center;
+    line-height:1.5rem ;
+    display: block;
+    margin-top:-1.5rem;
+    margin-right:-5.5rem;
+}
+.tou .time .kezi{
+    width:5.84rem ;
+    height:0.02rem ;
+    background: #959595;
+    margin-top:-0.3rem;
+    margin-left:0.32rem;
+    float: left;
+}
+.tou .time a{
+    font-size: 0.24rem;
+    display: block;
+    margin-left:0.32rem ;
+    margin-top:-0.1rem;
+}
+.tou .time .fanh{
+    font-size: 0.3rem;
+    display:block;
+    margin-top:-0.9rem;
+    position: absolute;
+    margin-left:5.84rem;
+}
+.dname{
+    width:5.84rem ;
+    height:1rem ;
+    /*background:red ;*/
+    border-bottom:0.02rem solid  #959595;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top:1rem;
+}
+.dname span{
+    font-size:0.32rem ;
+    display: block;
+    margin-top: 0.5rem;
+}
+.fenl{
+    width: 5.84rem;
+    height: 4.6rem;
+    /*background: #fff45c;*/
+    margin: 0 auto;
+}
+.fenl .box{
+    width: 100%;
+    height: 2.3rem;
+    /*background: #5ed6d7;*/
+    border-bottom:0.02rem solid  #959595;
+    display: flex;
+    box-sizing: border-box;
+}
+.fenl .box .hez{
+    width: 25%;
+    height:1.34rem;
+    /*background: #df5000;*/
+    margin-top: 0.48rem;
+    float: left;
+    font-size: 0.24rem;
+    margin-right:0.1rem ;
+}
+.fenl .box .hez:nth-child(1){
+    background-image: url("../img/dingdan/图层13拷贝.png");
+    background-size: cover;
+}
+.fenl .box .hez span{
+    display:block;
+    margin-top: 0.2rem;
+}
+.order{
+    width: 100%;
+    height: 2.02rem;
+    border-radius: 0.1rem;
+    background: #fff;
+    border: 0.02rem solid #ede8e8;
+    display: flex;
+    flex-direction: column;
+}
+.order .beizhu{
+    font-size: 0.24rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.8rem;
+    box-sizing: border-box;
+}
+.order .beizhu > span{
+    font-size: 0.24rem;
+}
+.order .beizhu .rightss{
+    display: flex;
+    align-items: center;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+}
+.order .fenshu{
+    font-size: 0.24rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.8rem;
+    box-sizing: border-box;
+}
+.order .fenshu > span{
+    font-size: 0.24rem;
+}
+footer{
+    width: 100%;
+    height: 0.86rem;
+    /*background-image:url("../img/ddqr/buttom.png");*/
+    background-size:100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer > div{
+    font-size: 0.18rem;
+    color: #f0f0f0;
+}
+footer > div.left{
+    color: #7e6b5a;
+    font-size: 0.24rem;
+    margin-left: 0.8rem;
+}
+footer a .right{
+    width: 2.75rem;
+    height: 100%;
+    background: #959595;
+    text-align: center;
+    line-height: 0.86rem;
+    font-size: 0.18rem;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,214 @@
+.tou{
+    width: 100%;
+    height: 2.3rem;
+    background: #448aca;
+}
+.tou .top{
+    width: 100%;
+    height:1.3rem ;
+    /*background: #5ed6d7;*/
+}
+.tou .top .left{
+    width:0.5rem ;
+    height:0.5rem ;
+    /*background: #7e6b5a;*/
+    float: left;
+    margin:0.6rem 0 0 0.2rem;
+}
+.tou .top .left i{
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 0.5rem;
+    display: block;
+}
+.tou .top .zhong{
+    width:1rem ;
+    height:0.8rem ;
+    /*background: #63a35c;*/
+    float: left;
+    margin-top:0.5rem;
+    margin-left:2.25rem;
+    font-size: 0.3rem;
+    color: white;
+    text-align: center;
+}
+.tou .top .right{
+    width: 0.5rem;
+    height: 0.5rem;
+    /*background: #795da3;*/
+    float: right;
+    margin:0.6rem 0.2rem 0 0;
+}
+.tou .top .right i{
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    line-height: 0.5rem;
+    display: block;
+}
+.tou .bottom{
+    width: 100%;
+    height: 1rem;
+    /*background: #a71d5d;*/
+}
+.tou .bottom .zuo{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+    background-image:url("../img/wode/图层1.png");
+    background-size: cover;
+    float: left;
+}
+.tou .bottom .you{
+    width:6rem ;
+    height:1rem ;
+    /*background: #fff45c;*/
+    float:right;
+}
+.tou .bottom .name{
+    width:1.6rem;
+    height: 0.34rem;
+    /*background:#ffecec;*/
+    float: left;
+    font-size: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.34rem;
+}
+.tou .bottom .phone{
+    width:100% ;
+    height:0.4rem ;
+    /*background:pink;*/
+    float: left;
+    margin-top:0.26rem;
+}
+.tou .bottom .phone i{
+    font-size: 0.24rem;
+    color: white;
+    line-height: 0.4rem;
+}
+.tou .bottom .phone i:nth-child(1){
+    float: left;
+    display: block;
+    margin-left: 0.1rem;
+}
+.tou .bottom .phone span{
+    float: left;
+    font-size: 0.24rem;
+    color: white;
+    display: block;
+    margin-left: 0.3rem;
+    margin-top: 0.04rem;
+}
+.tou .bottom .phone i:nth-child(3){
+    float:right;
+    margin-right: 0.2rem;
+}
+.xzfs{
+    width: 100%;
+    height:1rem;
+    /*background: #795da3;*/
+    display: flex;
+}
+.xzfs .box{
+    width:33.333333%;
+    height: 100%;
+    background:white;
+    border-bottom:0.1rem solid #c9c9c9 ;
+    border-right:0.03rem solid #c9c9c9;
+    overflow: hidden;
+}
+.xzfs .box:nth-child(3){
+    border-right: none;
+}
+.xzfs .box span:nth-child(1){
+    font-size:0.24rem;
+    color: red;
+    display: block;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.xzfs .box span:nth-child(2){
+    font-size:0.24rem;
+    color:#5ed6d7;
+    display: block;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.xzfs .box span:nth-child(3){
+    font-size:0.24rem;
+    color:#73e2d9;
+    display: block;
+    text-align: center;
+    margin-top: 0.2rem;
+    border-right: none;
+}
+.item{
+    width: 100%;
+    height: auto;
+    background: #bd2c00;
+}
+.item .hezi{
+    width: 100%;
+    height: 1.1rem;
+    background: #fff45c;
+    border-bottom:0.03rem solid #c9c9c9 ;
+    overflow:hidden;
+}
+.item .hezi .dizhi i:nth-child(1){
+    float: left;
+    font-size: 0.4rem;
+    margin-top: 0.4rem;
+    margin-left: 0.2rem;
+    color: #5ed6d7;
+}
+.item .hezi .dizhi i:nth-child(3){
+    float: right;
+    margin-right:0.2rem ;
+    margin-top: 0.4rem;
+}
+.item .hezi:nth-child(8){
+    border-bottom: 0.1rem solid #c9c9c9;
+}
+.item .hezi .dizhi span{
+    font-size:0.2rem;
+    float: left;
+    /*text-align: center;*/
+    margin-top:0.28rem;
+    margin-left:0.3rem;
+}
+.footer{
+    width: 100%;
+    height: 1rem;
+    background: white;
+    display: flex;
+    position: fixed;
+    left: 0;
+    /*top:10rem;*/
+    bottom:-0.2rem;
+}
+.footer .box{
+    width:25%;
+    height:.7rem ;
+    /*background: #5ed6d7;*/
+    justify-content:space-around;
+}
+.footer .box i{
+    font-size:0.4rem ;
+    display: block;
+    text-align: center;
+}
+.footer .box a{
+    font-size: 0.2rem;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+

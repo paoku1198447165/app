@@ -1,0 +1,228 @@
+header{
+    width: 100%;
+    height:5.4rem;
+    background: url("../img/ddqr/ddqrbg.png");
+    background-size: 100% 100%;
+    position: relative;
+    padding: 0.8rem 0.24rem 0;
+    box-sizing: border-box;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 0.92rem;
+    padding: 0 0.24rem ;
+    /*margin-top: 0.24rem;*/
+    box-sizing: border-box;
+}
+header .top > i{
+    color: #fcf8f8;
+    font-size: 0.3rem;
+}
+header .buttom{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+header .zhezhao{
+    height: 5.46rem;
+    width: 100%;
+    background:rgba(164,164,164,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*header .buttom .left{
+    width: 1.44rem;
+    height: 1.44rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .buttom .left img{
+    width: 1.06rem;
+    width: 1.06rem;
+}*/
+header .buttom > .right{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1.44rem;
+    margin-bottom: 0.2rem;
+}
+header .buttom .right > span{
+    font-size: 0.24rem;
+    flex-grow: 1;
+    color: white;
+}
+header .buttom .zhifufangshi .songda .rights i {
+    font-size: 0.18rem;
+    margin-left: 0.05rem;
+}
+header .buttom .zhifufangshi .fangshi .rights i {
+    font-size: 0.18rem;
+    margin-left: 0.05rem;
+}
+header .buttom .zhifufangshi .songda .rights span {
+    color: #debd4b;
+}
+header .buttom .zhifufangshi .fangshi .rights span {
+    color: #debd4b;
+}
+header .buttom .right > span{
+    display: flex;
+    align-items: center;
+}
+header .buttom .right .phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
+header .buttom .right .phone > span{
+    font-size: 0.24rem;
+    flex-grow: 1;
+    color: white;
+}
+header .buttom .right .phone i{
+    color: white;
+    font-size: 0.3rem;
+}
+header .buttom .zhifufangshi{
+    width: 100%;
+    height: 2.02rem;
+    border-radius: 0.1rem;
+    background: #fff;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    border: 0.02rem solid #ede8e8;
+    display: flex;
+    flex-direction: column;
+}
+header .buttom .zhifufangshi .songda{
+    font-size: 0.24rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .buttom .zhifufangshi .songda .rights{
+    display: flex;
+    align-items: center;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+}
+header .buttom .zhifufangshi .fangshi{
+    font-size: 0.24rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*------------------------*/
+.content{
+
+}
+.content .gkpingjia i.iconfont{
+    color: #ec5dae;
+}
+.content .gkpingjia > i.iconfont{
+    position: absolute;
+    right: 0.24rem;
+    top: 0.4rem;
+    color: #ccc;
+}
+
+.content .gkpingjia{
+    width: 100%;
+    height: 1rem;
+    font-size: 0.18rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.04rem solid #bcc0c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.content .cmain ul li{
+    width: 100%;
+    height: 0.8rem;
+    padding: 0 0.24rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.content .cmain ul li:nth-child(2) span{
+    color: #482ecc;
+}
+.content .cmain ul li:nth-child(1) span{
+    color: #1e15db;
+}
+ .content .cmain ul li:nth-child(2) span{
+     color: #4232a6;
+ }
+.content .cmain ul li span:nth-child(1){
+    font-size: 0.24rem;
+}
+.content .cmain ul li:nth-child(3) div{
+    margin:0 0.2rem;
+}
+
+.content .cmain ul li span:nth-child(2){
+    font-size: 0.3rem;
+}
+.content .cmain ul li div{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: #13227a;
+}
+.keyboard{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 4.32rem;
+}
+.keyboard img{
+    width: 100%;
+    height: 4.32rem;
+    display: block;
+
+}
+div.main{
+    width: 100%;
+    height: 3.42rem;
+}
+footer{
+    width: 100%;
+    height: 0.86rem;
+    background-image:url("../img/ddqr/buttom.png");
+    background-size:100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer > div{
+    font-size: 0.18rem;
+    color: #f0f0f0;
+}
+footer > div.left{
+    font-size: 0.24rem;
+}
+footer > div.right{
+    width: 2.75rem;
+    height: 100%;
+    background: #4744c7;
+    text-align: center;
+    line-height: 0.86rem;
+
+}

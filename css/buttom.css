@@ -1,0 +1,64 @@
+footer{
+    width: 100%;
+    height: 0.8rem;
+}
+footer .main{
+    height: 0.8rem;
+}
+footer .main div{
+    font-size: 0.18rem;
+}
+footer .main .fcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+    box-sizing: border-box;
+}
+footer .main .fcontent a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer .main .fcontent a.active > div i{
+    color: #00479d;
+}
+footer .main .fcontent a.active > div span{
+    color: #00479d;
+}
+footer .main .fcontent a > div{
+    /*width: 2rem;*/
+    height: 1rem;
+    /*text-align: center;*/
+    /*line-height: 0.8rem;*/
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+    justify-content:center;
+    margin-top: -0.5rem;
+    flex-grow: 1;
+}
+footer .main .fcontent > div >i{
+    display: block;
+    width: 0.30rem;
+    height: 0.30rem;
+    margin: 0 auto;
+    font-size: 24px;
+}
+footer .main .fcontent > div >span{
+    display: block;
+    height: 0.18rem;
+    width: 0.6rem;
+    text-align: center;
+}

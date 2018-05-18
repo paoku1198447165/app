@@ -1,0 +1,158 @@
+header{
+    width: 100%;
+    height: 1.42rem;
+    background-color:blue;
+    background-size: 100% 100%;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 1.42rem;
+    background:blue;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+header .top > i{
+    color: #fcf8f8;
+    font-size: 0.3rem;
+}
+header .top .pcenter > span{
+    font-size: 0.24rem;
+    color: #fcf8f8;
+}
+header .top .pcenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.ddxqmain ul li:nth-child(1){
+    margin-top: 0.6rem;
+}
+.ddxqmain ul li{
+    width: 100%;
+    height: 2.52rem;
+    background-image: url("../img/wode/");
+    background-size: 100% 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.ddxqmain ul li .left{
+    width: 1.78rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ddxqmain ul li .left .imgs{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0 auto;
+}
+.ddxqmain ul li .left .imgs img{
+    width: 100%;
+    height: 100%;
+}
+.ddxqmain ul li .left .line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.ddxqmain ul li .left .line .circle{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #999a9a;
+}
+ .ddxqmain ul li .left .line .xian{
+     width: 0.9rem;
+     height: 0.02rem;
+     background: #dddfe1;
+ }
+
+
+.ddxqmain ul li .right{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.ddxqmain ul li .right .ddxqName{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    /*align-items: center;*/
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.ddxqmain ul li .right .ddxqName span:nth-child(2){
+    color: #ccc;
+}
+.ddxqmain ul li .right .ddxqName span{
+    font-size: 0.22rem;
+}
+.ddxqmain ul li .right .ddxqInfo{
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+}
+.ddxqmain ul li .right .ddxqInfo p{
+    font-size: 0.18rem;
+    width: 3.82rem;
+
+}
+.ddxqmain ul li .right .ddxqtime{
+    width: 100%;
+    height: 0.7rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.ddxqmain ul li .right .ddxqtime span{
+    font-size: 0.18rem;
+    margin: 0 0.2rem;
+    color: #ccc;
+}
+.footer{
+    width: 100%;
+    height:1rem;
+    background-color: #f7f7f7;
+}
+.footer .box:nth-child(1){
+    margin-left: 0.24rem;
+}
+.footer .box{
+    width:1.6rem ;
+    height:0.7rem ;
+    /*background-color: red;*/
+    float: left;
+    margin:0 0.2rem 0 0;
+    box-sizing: border-box;
+}
+.footer .box:nth-child(1){
+    margin-left: 0.25rem;
+}
+.footer .box i{
+    width:0.4rem;
+    height: 0.4rem;
+    font-size: 0.4rem;
+    display:block;
+    text-align: center;
+    margin-left: 0.6rem;
+}
+.footer .box a{
+    font-size:0.2rem;
+    display: block;
+    margin-top:0.06rem ;
+    margin-left: 0.6rem;
+}

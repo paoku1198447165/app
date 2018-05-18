@@ -1,0 +1,239 @@
+.tou{
+    width: 100%;
+    height: 2.1rem;
+    background-image: url("../img/sanji/085143idhawmh11rm1hiae拷贝.png");
+    background-size: cover;
+    background-position: center;
+}
+.tou .top{
+    width: 100%;
+    height:1.1rem;
+    /*background: chartreuse;*/
+}
+.tou .top .tleft{
+    width:0.7rem ;
+    height:0.5rem ;
+    /*background: #cccccc;*/
+    float: left;
+    margin-top: 0.7rem;
+}
+.tou .top .tright{
+    width:1.6rem ;
+    height:0.5rem ;
+    /*background: #df5000;*/
+    float: right;
+    margin-top: 0.7rem;
+}
+.tou .top i{
+    font-size: 0.4rem;
+    color: white;
+    float:left ;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.tou .top .tright i:nth-child(1){
+    margin-right:0.6rem ;
+}
+.mingx{
+    width: 100%;
+    height:4.2rem;
+    /*background: #55a532;*/
+    overflow: hidden;
+}
+.mingx .mbox{
+    width: 1.6rem;
+    height: 0.4rem;
+    /*background: red;*/
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.4rem;
+    margin-top: 0.2rem;
+    margin-left: 0.1rem ;
+}
+.mingx .xiaos{
+    width:2.28rem ;
+    height:0.3rem ;
+    /*background: blue;*/
+    font-size:0.18rem;
+    text-align:center ;
+    line-height: 0.3rem;
+    margin-top: 0.2rem;
+    margin-left: 0.1rem ;
+}
+.mingx .jiag{
+    width:0.6rem ;
+    height: 0.3rem;
+    color: red;
+    font-size:0.28rem;
+    text-align:center ;
+    line-height: 0.3rem;
+    margin-top: 0.2rem;
+    margin-left: 0.1rem ;
+}
+.mingx .main{
+    width:7.26rem ;
+    height:1.6rem ;
+    /*background: red;*/
+    font-size:0.24rem ;
+    margin-top: 0.36rem;
+    margin-left: 0.1rem ;
+
+}
+.dianp{
+    width: 100%;
+    height: 1.4rem;
+    /*background: #795da3;*/
+    border-top: 0.1rem solid #959595;
+    border-bottom: 0.04rem solid #959595;
+}
+.dianp .boxx{
+    width:1.2rem ;
+    height:0.4rem ;
+    /*background: #df5000;*/
+    font-size: 0.3rem;
+    margin-top: 0.5rem;
+}
+.dpnr{
+    width:100%;
+    height: 8.8rem;
+    /*background: #7e6b5a;*/
+    box-sizing: border-box;
+}
+.dpnr .dpbox{
+    width:100% ;
+    height:2.2rem ;
+    /*background: chartreuse;*/
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+.dpnr .dpbox .left{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    /*background-color: #df5000;*/
+    margin:0.6rem 0 0 0.1rem;
+    background-image: url("../img/sanji/2013051515113135806.png");
+    background-size: cover;
+    float:left;
+}
+.dpnr .dpbox .right{
+    width: 6.2rem;
+    height:2.2rem;
+    /*background: #a71d5d;*/
+    float: right;
+}
+.dpnr .dpbox .right .rleft{
+    width:3rem;
+    height: 100%;
+    /*background: blue;*/
+    float: left;
+    overflow: hidden;
+}
+.dpnr .dpbox .right .rleft .name{
+    width:100% ;
+    height:0.4rem;
+    /*background:#5ed6d7;*/
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+.dpnr .dpbox .right .rleft .weiz{
+    width: 1.7rem;
+    height:0.3rem;
+    /*background: red;*/
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.3rem;
+    margin-top: 0.4rem;
+}
+.dpnr .dpbox .right .rleft .weiz i{
+    color: #67cdd9;
+}
+.dpnr .dpbox .right .rleft .fayan{
+    width:2rem ;
+    height:0.24rem ;
+    /*background: #333333;*/
+    font-size: 0.22rem;
+    text-align: center;
+    line-height:0.24rem;
+    margin-top: 0.4rem;
+}
+.dpnr .dpbox .right .rright{
+    width:2.2rem ;
+    height: 100%;
+    /*background: #7e6b5a;*/
+    overflow: hidden;
+    float:right ;
+}
+.dpnr .dpbox .right .rright .time{
+    width:1.2rem ;
+    height:0.4rem ;
+    /*background:#df5000 ;*/
+    float:right ;
+    font-size:0.18rem ;
+    text-align: center;
+    line-height: 0.4rem;
+    margin-top: 0.4rem;
+}
+.dpnr .dpbox .right .rright .dianz{
+    width:2.2rem ;
+    height:0.3rem ;
+    /*background:#df5000 ;*/
+    font-size:0.18rem ;
+    text-align: center;
+    line-height:0.3rem ;
+    margin-top:1.9rem ;
+}
+.dpnr .dpbox .right .rright .dianz i{
+    color:#f02125;
+}
+.footer{
+    width: 100%;
+    height: 1rem;
+    background: #7e6b5a;
+    margin-top:2rem;
+    overflow: hidden;
+    position: relative;
+}
+.footer .car{
+    width:1rem ;
+    height:1rem ;
+    /*background:red ;*/
+    border-radius: 50%;
+    position: absolute;
+    float: left;
+    /*margin-top: -0.5rem;*/
+    margin-left: 0.2rem;
+    /*z-index: 9999;*/
+    background-image: url("../img/sanji/购物车拷贝2.png");
+    background-size: cover;
+}
+.footer .fuk{
+    width:1.6rem ;
+    height:100%;
+    background: #959595;
+    font-size:0.24rem ;
+    text-align: center;
+    line-height: 1rem;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
